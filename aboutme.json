@@ -1,1 +1,78 @@
+{
+    "about": {
+        "profileImage": "url",
+        "developerType": "FULL STACK WEB DEVELOPER",
+        "about": [
+            "Hello! I am Sandeep Bhardwaj. Full Stack Developer.",
+            "Sandeep Kumar is a passionate Full Stack Web Developer and always available to Learn and Teach new WEB Technologies. He has different programming skills such as PHP, MySQL, Wordpress, HTML5, CSS3, JQuery, Bootstrap, JAVASCRIPT, basic knowledge of laravel and Flutter."
+        ],
+        "email": "bsandeep650@gmail.com",
+        "phone": "+918814097143",
+        "address": "V.P.O. Tikri Distt. Karnal home no. 41",
+        "language": [
+            "Hindi",
+            "English",
+            "Punjabi"
+        ]
+    },
+    "skills": {
+        "html": "80%",
+        "css": "75%",
+        "javascript": "60%",
+        "bootstrap": "80%",
+        "php": "75%",
+        "mysql": "60%",
+        "wordpress": "75%"
+    },
+    "experience": [{
+            "cname": "O.P. JINDAL UNIVERSITY",
+            "from": "MAY 2021",
+            "to": "FEB 2022",
+            "developerType": "Full Stack Developer",
+            "description": "Working as Full stack Developer. Planned website development, converting mockups into usable web presence with HTML, JavaScript, AJAX and JSON coding. Provided front-end website development using WordPress, Hubspot and other editing software. Conducted testing and review of website design for responsiveness, clarity and effectiveness. Oversaw back-end development using PHP to maintain website integrity, security and efficiency. Multi-tasked across multiple functions and roles to generate project results and meet deadlines and organizational expectations."
+        },
+        {
+            "cname": "OODLES TECHNOLOGIES",
+            "from": "MAY 2019",
+            "to": "MAY 2021",
+            "developerType": "Full Stack Developer",
+            "description": "Worked as Full stack Developer. Delivered outstanding service to clients to maintain and extend relationship for future business opportunities. Designed, implemented and monitored web pages, plugins and functionality for continuous improvement. Applied latest emerging technology, software and project application trends to update and maintain site applicability. Planned website development, converting mockups into usable web presence with HTML, JavaScript, AJAX and JSON coding. Worked in both HTML and CSS environments, choosing each protocol, where appropriate, for best results."
+        },
+        {
+            "cname": "CHILLI FACTOR",
+            "from": "NOVEMBER 2018",
+            "to": "MAY 2019",
+            "developerType": "Full Stack Developer",
+            "description": "Worked as Full stack Developer. Delivered outstanding service to clients to maintain and extend relationship for future business opportunities. Designed, implemented and monitored web pages, plugins and functionality for continuous improvement. Applied latest emerging technology, software and project application trends to update and maintain site applicability. Planned website development, converting mockups into usable web presence with HTML, JavaScript, AJAX and JSON coding. Worked in both HTML and CSS environments, choosing each protocol, where appropriate, for best results."
+        }
+    ],
+    "Education": [{
+            "name": "GOVT. POLYTECHNIC SONIPAT",
+            "from": "2013",
+            "to": "2015",
+            "branch": "Diploma in Electronics and Communications",
+            "description": "completed Electronics and Communications Diploma. Receiving prize in Yoga competition in college.Member of Collage yoga team"
+        },
+        {
+            "name": "D.A.V. SR. SEC. SCHOOL KARNALT",
+            "from": "2013",
+            "to": "2015",
+            "branch": "12th",
+            "description": "GPA: 69.8%"
+        },
+        {
+            "name": "GOVT. SR. SEC. SCHOOL TIKRI , KARNAL",
+            "from": "2006",
+            "to": "2010",
+            "branch": "Primary Studies",
+            "description": "Completed primary studies."
+        }
+    ],
+    "social": {
+        "fb": "url",
+        "google": "url",
+        "linkedIn": "url",
+        "map": "url"
 
+    }
+}
