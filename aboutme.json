@@ -1,5 +1,6 @@
 {
     "about": {
+        "name": "Sandeep Kumar",
         "profileImage": "images/sandeep.jpg",
         "developerType": "FULL STACK WEB DEVELOPER",
         "about": [
@@ -68,11 +69,29 @@
             "description": "Completed primary studies."
         }
     ],
-    "social": {
-        "fb": "url",
-        "google": "url",
-        "linkedIn": "url",
-        "map": "url"
+    "social": [{
+            "name": "facebook",
+            "icon": "fa fa-facebook",
+            "url": "https://www.facebook.com/sandeep.panchal.9041083",
+            "tooltip": "Follow me on Facebook"
+        }, {
+            "name": "google",
+            "icon": "fa fa-google-plus",
+            "url": "https://myaccount.google.com/profile",
+            "tooltip": "Follow me on Google+"
+        },
+        {
+            "name": "linkedIn",
+            "icon": "fa fa-linkedin",
+            "url": "https://www.linkedin.com/in/sandeep-kumar-980b84137/",
+            "tooltip": "Follow me on Linkedin"
+        },
+        {
+            "name": "github",
+            "icon": "fa fa-github",
+            "url": "https://github.com/sandyprsnl/",
+            "tooltip": "Give me Star on GitHub"
+        }
 
-    }
+    ]
 }
