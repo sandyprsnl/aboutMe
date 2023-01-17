@@ -6,7 +6,9 @@
         "about": [
             "Hello! I am Sandeep Bhardwaj. Full Stack Developer.",
             "Sandeep Kumar is a passionate Full Stack Web Developer and always available to Learn and Teach new WEB Technologies. He has different programming skills such as PHP, MySQL, Wordpress, HTML5, CSS3, JQuery, Bootstrap, JAVASCRIPT, basic knowledge of laravel and Flutter."
-        ],
+        ]
+    },
+    "basic_info": {
         "email": "bsandeep650@gmail.com",
         "phone": "+918814097143",
         "address": "V.P.O. Tikri Distt. Karnal home no. 41",
@@ -23,7 +25,8 @@
         "bootstrap": "80%",
         "php": "75%",
         "mysql": "60%",
-        "wordpress": "75%"
+        "wordpress": "75%",
+        "git": "40%"
     },
     "experience": [{
             "cname": "O.P. JINDAL UNIVERSITY",
@@ -74,7 +77,8 @@
             "icon": "fa fa-facebook",
             "url": "https://www.facebook.com/sandeep.panchal.9041083",
             "tooltip": "Follow me on Facebook"
-        }, {
+        },
+        {
             "name": "google",
             "icon": "fa fa-google-plus",
             "url": "https://myaccount.google.com/profile",
