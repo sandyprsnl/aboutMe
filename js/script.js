@@ -25,6 +25,7 @@ function printJsonData(jsonData) {
     basicInfo(jsonData['basic_info']);
     skills(jsonData['skills']);
     experience(jsonData['experience']);
+    education(jsonData['education']);
 }
 
 function about(aboutData) {
@@ -43,6 +44,7 @@ function about(aboutData) {
 
 function social(socialData) {
     let socialIconHtml = '';
+    let fsocialIconHtml = '';
     for (const key in socialData) {
         if (Object.hasOwnProperty.call(socialData, key)) {
             const element = socialData[key];
@@ -51,8 +53,9 @@ function social(socialData) {
         </a>`;
         }
     }
-    document.querySelector('.button-container').innerHTML = '';
+
     document.querySelector('.button-container').innerHTML = socialIconHtml;
+    document.querySelector('#f-social-icon').innerHTML = socialIconHtml;
 }
 
 function basicInfo(basicInfodata) {
@@ -67,6 +70,18 @@ function basicInfo(basicInfodata) {
         }
     }
     document.getElementById('basic-info').innerHTML = basicInfoTemplate;
+
+
+    // contect form basic info
+    let footerBasicInfoTemplate = `<div class="card-body">
+                                <p class="mb-0"><strong>Address </strong></p>
+                                <p class="pb-2">${basicInfodata['address']}</p>
+                                <p class="mb-0"><strong>Phone</strong></p>
+                                <p class="pb-2">${basicInfodata['phone']}</p>
+                                <p class="mb-0"><strong>Email</strong></p>
+                                <p>${basicInfodata["email"] }</p>
+                            </div>`;
+    document.getElementById('basic-info-footer').innerHTML = footerBasicInfoTemplate;
 }
 
 
@@ -106,12 +121,52 @@ function skills(skillsData) {
 }
 
 function experience(experienceData) {
-    for (const key in experienceData) {
-        if (Object.hasOwnProperty.call(experienceData, key)) {
-            const element = experienceData[key];
-            console.log(element);
-
-        }
+    let latestExperienceData = experienceData.reverse();
+    let experiencehtml = '';
+    for (let i = 0; i < latestExperienceData.length; i++) {
+        experiencehtml += `<div class="card">
+        <div class="row">
+            <div class="col-md-3 bg-primary aos-init aos-animate" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body cc-experience-header">
+                    <p>${latestExperienceData[i].from} - ${latestExperienceData[i].to}</p>
+                    <div class="h5">${latestExperienceData[i].cname}</div>
+                </div>
+            </div>
+            <div class="col-md-9 aos-init aos-animate" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body">
+                    <div class="h5">${latestExperienceData[i].developerType}</div>
+                    <p>${latestExperienceData[i].description}</p>
+                </div>
+            </div>
+        </div>
+    </div>`;
     }
+    document.getElementById('experienceData').innerHTML = experiencehtml;
 
+}
+
+function education(educationData) {
+    let educationDataReverse = educationData.reverse();
+    let educationhtml = '';
+    for (let index = 0; index < educationDataReverse.length; index++) {
+        educationhtml += `<div class="card">
+        <div class="row">
+            <div class="col-md-3 bg-primary aos-init aos-animate" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body cc-education-header">
+                    <p>${educationDataReverse[index].from} - ${educationDataReverse[index].to}</p>
+                    <div class="h5">${educationDataReverse[index].branch}</div>
+                </div>
+            </div>
+            <div class="col-md-9 aos-init aos-animate" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body">
+                    <div class="h5">${educationDataReverse[index].branch}</div>
+                    <p class="category">${educationDataReverse[index].name}</p>
+                    <p>${educationDataReverse[index].description}</p>
+                </div>
+            </div>
+        </div>
+    </div>`;
+
+    }
+    document.getElementById('educationData').innerHTML = educationhtml;
 }
