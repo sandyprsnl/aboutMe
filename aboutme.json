@@ -21,12 +21,15 @@
     "skills": {
         "html": "80%",
         "css": "75%",
-        "javascript": "60%",
+        "javascript": "70%",
+        "Jquery":"70%",
+        "extjs":"50%",
         "bootstrap": "80%",
         "php": "75%",
         "mysql": "60%",
         "wordpress": "75%",
-        "git": "40%"
+        "git": "40%",
+        "laravel": "60%"
     },
     "experience": [{
             "cname": "CHILLI FACTOR",
