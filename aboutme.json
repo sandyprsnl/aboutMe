@@ -30,7 +30,9 @@
         "mysql": "60%",
         "wordpress": "75%",
         "git": "40%",
-        "laravel": "60%"
+        "laravel": "60%",
+        "ReactJS":"70%",
+        "Type Script": "70%",
     },
     "experience": [{
             "cname": "CHILLI FACTOR",
