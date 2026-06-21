@@ -19,17 +19,17 @@
         ]
     },
     "skills": {
-        "html": "80%",
+        "html": "90%",
         "css": "75%",
-        "javascript": "70%",
+        "javascript": "80%",
         "Jquery":"70%",
         "Reactjs":"70%",
         "Extjs":"50%",
         "bootstrap": "80%",
-        "php": "75%",
+        "php": "80%",
         "mysql": "60%",
-        "wordpress": "75%",
-        "git": "40%",
+        "wordpress": "80%",
+        "git": "75%",
         "laravel": "60%",
         "ReactJS": "70%",
         "TypeScript": "70%"
